@@ -1,5 +1,5 @@
-import app from './app'
-import '@babel/polyfill'
+import app from './app';
+import '@babel/polyfill';
 
 (async ()=>{
   await app.listen(4000);

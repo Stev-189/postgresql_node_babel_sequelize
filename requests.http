@@ -16,7 +16,7 @@ GET http://localhost:4000/api/projects/
 
 
 ###
-GET http://localhost:4000/api/projects/6
+GET http://localhost:4000/api/projects/1
 
 ###
 DELETE  http://localhost:4000/api/projects/7
