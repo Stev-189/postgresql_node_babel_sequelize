@@ -1,0 +1,12 @@
+npm init -y
+
+npm install express pg pg-hstore sequelize morgan @babel/polyfill
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+npm i @babel/node @babel/plugin-transform-runtime nodemon -D
+
+https://github.com/FaztWeb/nodejs-postgresql-restapi
+https://www.faztweb.com/curso/postgresql-windows-instalacion
+https://www.youtube.com/watch?v=cHGaDfzJyY4
+
+Postgresql pass: pass-123 //port 5432
+para abrir terminal sql shell inicio

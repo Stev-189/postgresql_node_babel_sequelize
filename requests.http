@@ -1,0 +1,69 @@
+
+//projects
+### obtener datos
+POST http://localhost:4000/api/projects/
+Content-Type: application/json
+
+{
+  "name":"test3",
+  "priority":2,
+  "description":"this de test to de proyect",
+  "deliverydate":"2021-04-17"
+}
+
+###
+GET http://localhost:4000/api/projects/
+
+
+###
+GET http://localhost:4000/api/projects/6
+
+###
+DELETE  http://localhost:4000/api/projects/7
+
+
+
+### obtener datos
+PUT http://localhost:4000/api/projects/19
+Content-Type: application/json
+
+{
+  "name":"prueb",
+  "priority":1,
+  "description":"this de test to de proyect",
+  "deliverydate":"2021-04-17"
+}
+
+
+//task
+### obtener datos
+POST http://localhost:4000/api/tasks/
+Content-Type: application/json
+
+{
+  "name":"Dowloada api",
+  "done": false,
+  "projectId":3 
+}
+
+###
+GET http://localhost:4000/api/tasks/
+
+###
+GET  http://localhost:4000/api/tasks/project/3
+
+###
+GET http://localhost:4000/api/tasks/15
+
+###
+DELETE  http://localhost:4000/api/tasks/14
+
+### obtener datos
+PUT http://localhost:4000/api/tasks/13
+Content-Type: application/json
+
+{
+  "name":"jajeeeeei",
+  "done": false,
+  "projectId":2 
+}
